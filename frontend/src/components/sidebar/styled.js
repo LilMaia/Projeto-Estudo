@@ -24,4 +24,8 @@ export const MenuItem = styled.div`
   &:hover {
     background-color: #444;
   }
+  &:active {
+    background-color: #555;
+  }
+  cursor: pointer;
 `;
