@@ -1,9 +1,9 @@
 const gameService = require('../services/gameServices');
 
 const generateGamesWithQuantity = async (req, res) => {
-    const { quantidade } = req.body;
+    const { amount } = req.body; // Altere "quantidade" para "amount"
     try {
-        const games = await gameService.generateGames(quantidade);
+        const games = await gameService.generateGames(amount);
         res.status(200).json(games);
     } catch (error) {
         res.status(500).json({ message: 'Error ao gerar os games', error });
