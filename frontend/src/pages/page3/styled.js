@@ -41,22 +41,20 @@ export const TitleAndIconContainer = styled.div`
   padding-left: 20px; // Corrigido: 'padding-start' para 'padding-left'
   padding-right: 20px; // Corrigido: 'padding-end' para 'padding-right'
   justify-content: space-between; // Adicionado para distribuir itens com espaço entre eles
+  margin-top: 40px;
 `
 
 export const NovoCertificadoTitle = styled.h1`
   color: #000;
-  align-self: start;
   font-size: 24px;
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: 15px;
 `
 
 export const NovoCertificadoEndIcon = styled.img`
   width: 20px;
   height: 20px;
-  margin-left: 10px;
-  align-self: end;
-  margin-rightr: 30px;
+  margin-right: 10px;
   cursor: pointer;
 `
 
@@ -65,6 +63,18 @@ export const NovoCertificadoUnderline = styled.div`
   height: 2px;
   align-self: center;
   background-color: #000;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+`
+
+export const PreviewEPreviewConfigContainer = styled.div`
+  display: flex;
+  position: relative;
+  background-color: orange;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 20px; // Corrigido: 'padding-start' para 'padding-left'
+  padding-right: 20px; // Corrigido: 'padding-end' para 'padding-right'
+  justify-content: space-between; // Adicionado para distribuir itens com espaço entre eles
+  margin-top: 40px;
 `

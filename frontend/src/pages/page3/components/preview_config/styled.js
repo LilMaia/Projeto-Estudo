@@ -1,5 +1,15 @@
 import styled from 'styled-components';
 
+// container da página
+export const PreviewConfig = styled.div`
+  display: flex;
+  position: relative;
+  background-color: yellow;
+  width: 985px;
+  height: 600px;
+  margin-left: 15px;
+`
+
 //  campos container
 export const CamposContainer = styled.div`
   display: flex;
